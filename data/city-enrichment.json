@@ -1,0 +1,442 @@
+{
+  "toronto": {
+    "population": "2.9M",
+    "climate": "humid continental with lake-effect moderation",
+    "landmark": "CN Tower and the waterfront",
+    "neighbourhoods": [
+      "North York",
+      "Scarborough"
+    ],
+    "hardiness": "6a"
+  },
+  "ottawa": {
+    "population": "1.0M",
+    "climate": "cold winters with heavy freeze-thaw cycles",
+    "landmark": "Parliament Hill and the Rideau Canal",
+    "neighbourhoods": [
+      "Kanata",
+      "Orleans"
+    ],
+    "hardiness": "5a"
+  },
+  "mississauga": {
+    "population": "717K",
+    "climate": "GTA lake-influenced summers and icy winters",
+    "landmark": "Port Credit harbour",
+    "neighbourhoods": [
+      "Erin Mills",
+      "Streetsville"
+    ],
+    "hardiness": "6a"
+  },
+  "brampton": {
+    "population": "656K",
+    "climate": "continental with clay-heavy suburban soils",
+    "landmark": "Heart Lake Conservation Area",
+    "neighbourhoods": [
+      "Bramalea",
+      "Mount Pleasant"
+    ],
+    "hardiness": "6a"
+  },
+  "hamilton": {
+    "population": "580K",
+    "climate": "escarpment-influenced microclimates and wind",
+    "landmark": "Niagara Escarpment views",
+    "neighbourhoods": [
+      "Ancaster",
+      "Stoney Creek"
+    ],
+    "hardiness": "6b"
+  },
+  "london": {
+    "population": "422K",
+    "climate": "snow belt winters south-western Ontario",
+    "landmark": "Thames River valley parks",
+    "neighbourhoods": [
+      "Byron",
+      "Old North"
+    ],
+    "hardiness": "6a"
+  },
+  "kitchener": {
+    "population": "256K",
+    "climate": "Waterloo Region clay and hard spring frost",
+    "landmark": "Victoria Park and downtown core",
+    "neighbourhoods": [
+      "Forest Heights",
+      "Doon"
+    ],
+    "hardiness": "5b"
+  },
+  "waterloo": {
+    "population": "104K",
+    "climate": "short growing season with late spring frost",
+    "landmark": "University of Waterloo district",
+    "neighbourhoods": [
+      "Uptown Waterloo",
+      "Beechwood"
+    ],
+    "hardiness": "5b"
+  },
+  "cambridge": {
+    "population": "138K",
+    "climate": "Grand River valley humidity and clay",
+    "landmark": "Grand River waterfront trails",
+    "neighbourhoods": [
+      "Galt",
+      "Preston"
+    ],
+    "hardiness": "5b"
+  },
+  "burlington": {
+    "population": "186K",
+    "climate": "lake Ontario moderated shoulder seasons",
+    "landmark": "Burlington waterfront pier",
+    "neighbourhoods": [
+      "Aldershot",
+      "Appleby"
+    ],
+    "hardiness": "6a"
+  },
+  "oakville": {
+    "population": "213K",
+    "climate": "lake humidity and salt exposure near QEW",
+    "landmark": "Bronte Harbour village",
+    "neighbourhoods": [
+      "Glen Abbey",
+      "Joshua Creek"
+    ],
+    "hardiness": "6a"
+  },
+  "vaughan": {
+    "population": "323K",
+    "climate": "GTA suburban heat islands in summer",
+    "landmark": "Kleinburg heritage district",
+    "neighbourhoods": [
+      "Maple",
+      "Woodbridge"
+    ],
+    "hardiness": "6a"
+  },
+  "markham": {
+    "population": "338K",
+    "climate": "freeze-thaw with compacted new-build soils",
+    "landmark": "Main Street Unionville",
+    "neighbourhoods": [
+      "Unionville",
+      "Cornell"
+    ],
+    "hardiness": "6a"
+  },
+  "richmond-hill": {
+    "population": "202K",
+    "climate": "Oak Ridges Moraine influenced drainage",
+    "landmark": "Mill Pond park",
+    "neighbourhoods": [
+      "Bayview Hill",
+      "Jefferson"
+    ],
+    "hardiness": "6a"
+  },
+  "barrie": {
+    "population": "147K",
+    "climate": "longer snow cover than the GTA core",
+    "landmark": "Kempenfelt Bay waterfront",
+    "neighbourhoods": [
+      "Holly",
+      "Allandale"
+    ],
+    "hardiness": "5b"
+  },
+  "oshawa": {
+    "population": "175K",
+    "climate": "Durham clay and late spring green-up",
+    "landmark": "Lake Ontario shoreline parks",
+    "neighbourhoods": [
+      "North Oshawa",
+      "Taunton"
+    ],
+    "hardiness": "6a"
+  },
+  "whitby": {
+    "population": "128K",
+    "climate": "lake breezes and winter road-salt drift",
+    "landmark": "Whitby waterfront",
+    "neighbourhoods": [
+      "Brooklin",
+      "Pringle Creek"
+    ],
+    "hardiness": "6a"
+  },
+  "guelph": {
+    "population": "135K",
+    "climate": "limestone soils with variable pH",
+    "landmark": "Speed River trails",
+    "neighbourhoods": [
+      "Exhibition Park",
+      "Kortright Hills"
+    ],
+    "hardiness": "5b"
+  },
+  "windsor": {
+    "population": "229K",
+    "climate": "warmest Ontario winters, summer drought stress",
+    "landmark": "Detroit River waterfront",
+    "neighbourhoods": [
+      "Riverside",
+      "South Windsor"
+    ],
+    "hardiness": "6b"
+  },
+  "kingston": {
+    "population": "132K",
+    "climate": "lake Ontario wind and limestone subsurface",
+    "landmark": "Kingston waterfront",
+    "neighbourhoods": [
+      "Kingscourt",
+      "Bayridge"
+    ],
+    "hardiness": "6a"
+  },
+  "calgary": {
+    "population": "1.3M",
+    "climate": "chinooks, chinook-dried turf and heavy clay",
+    "landmark": "Calgary Tower and Bow River",
+    "neighbourhoods": [
+      "Mahogany",
+      "Tuscany"
+    ],
+    "hardiness": "4a"
+  },
+  "edmonton": {
+    "population": "1.0M",
+    "climate": "long winters and late May green-up",
+    "landmark": "North Saskatchewan River valley",
+    "neighbourhoods": [
+      "Windermere",
+      "Strathcona"
+    ],
+    "hardiness": "4a"
+  },
+  "red-deer": {
+    "population": "100K",
+    "climate": "prairie wind and rapid temperature swings",
+    "landmark": "Red Deer River parkway",
+    "neighbourhoods": [
+      "Kentwood",
+      "Inglewood"
+    ],
+    "hardiness": "4a"
+  },
+  "winnipeg": {
+    "population": "750K",
+    "climate": "extreme cold and spring flooding pockets",
+    "landmark": "The Forks meeting place",
+    "neighbourhoods": [
+      "St. Vital",
+      "Transcona"
+    ],
+    "hardiness": "3b"
+  },
+  "saskatoon": {
+    "population": "266K",
+    "climate": "dry prairie summers and heavy spring melt",
+    "landmark": "South Saskatchewan River",
+    "neighbourhoods": [
+      "Stonebridge",
+      "Erindale"
+    ],
+    "hardiness": "3b"
+  },
+  "regina": {
+    "population": "226K",
+    "climate": "windy plains with clay loam soils",
+    "landmark": "Wascana Centre park",
+    "neighbourhoods": [
+      "Harbour Landing",
+      "Lakeview"
+    ],
+    "hardiness": "3b"
+  },
+  "vancouver": {
+    "population": "662K",
+    "climate": "wet coastal winters and dry summer irrigation needs",
+    "landmark": "Stanley Park seawall",
+    "neighbourhoods": [
+      "Kitsilano",
+      "East Vancouver"
+    ],
+    "hardiness": "8b"
+  },
+  "surrey": {
+    "population": "568K",
+    "climate": "Lower Mainland rain shadow variability",
+    "landmark": "Guildford Town Centre district",
+    "neighbourhoods": [
+      "Cloverdale",
+      "South Surrey"
+    ],
+    "hardiness": "8a"
+  },
+  "burnaby": {
+    "population": "249K",
+    "climate": "coastal rain with shaded north-slope lawns",
+    "landmark": "Burnaby Mountain conservation",
+    "neighbourhoods": [
+      "Brentwood",
+      "Deer Lake"
+    ],
+    "hardiness": "8a"
+  },
+  "langley": {
+    "population": "132K",
+    "climate": "Fraser Valley moisture and summer cut frequency",
+    "landmark": "Fort Langley heritage area",
+    "neighbourhoods": [
+      "Willoughby",
+      "Walnut Grove"
+    ],
+    "hardiness": "8a"
+  },
+  "coquitlam": {
+    "population": "148K",
+    "climate": "mountain runoff and shaded turf",
+    "landmark": "Town Centre Park",
+    "neighbourhoods": [
+      "Burke Mountain",
+      "Maillardville"
+    ],
+    "hardiness": "8a"
+  },
+  "victoria": {
+    "population": "92K",
+    "climate": "mild wet winters and year-round growth",
+    "landmark": "Inner Harbour",
+    "neighbourhoods": [
+      "James Bay",
+      "Saanich border"
+    ],
+    "hardiness": "9a"
+  },
+  "kelowna": {
+    "population": "144K",
+    "climate": "semi-arid interior with irrigation demand",
+    "landmark": "Okanagan Lake waterfront",
+    "neighbourhoods": [
+      "Rutland",
+      "Lower Mission"
+    ],
+    "hardiness": "7a"
+  },
+  "nanaimo": {
+    "population": "93K",
+    "climate": "Gulf Island rain and acidic soils",
+    "landmark": "Nanaimo harbour",
+    "neighbourhoods": [
+      "North Nanaimo",
+      "Hammond Bay"
+    ],
+    "hardiness": "8b"
+  },
+  "halifax": {
+    "population": "480K",
+    "climate": "coastal fog, salt spray, and nor'easter recovery",
+    "landmark": "Halifax waterfront boardwalk",
+    "neighbourhoods": [
+      "Dartmouth",
+      "Bedford"
+    ],
+    "hardiness": "6b"
+  },
+  "moncton": {
+    "population": "79K",
+    "climate": "Atlantic snow dumps and spring saturation",
+    "landmark": "Riverfront Trail",
+    "neighbourhoods": [
+      "Dieppe border",
+      "North End"
+    ],
+    "hardiness": "5b"
+  },
+  "fredericton": {
+    "population": "63K",
+    "climate": "Saint John River valley frost pockets",
+    "landmark": "Officers Square",
+    "neighbourhoods": [
+      "Skyline Acres",
+      "Nashwaaksis"
+    ],
+    "hardiness": "5a"
+  },
+  "st-john-s": {
+    "population": "110K",
+    "climate": "wet windy Atlantic with short peak season",
+    "landmark": "Signal Hill",
+    "neighbourhoods": [
+      "Mount Pearl border",
+      "Quidi Vidi"
+    ],
+    "hardiness": "6a"
+  },
+  "charlottetown": {
+    "population": "39K",
+    "climate": "red island clay and coastal wind",
+    "landmark": "Victoria Row",
+    "neighbourhoods": [
+      "Brighton",
+      "East Royalty"
+    ],
+    "hardiness": "6a"
+  },
+  "montreal": {
+    "population": "1.8M",
+    "climate": "snow load, de-icing salt, and clay urban soils",
+    "landmark": "Mount Royal park slopes",
+    "neighbourhoods": [
+      "Westmount border",
+      "Plateau"
+    ],
+    "hardiness": "5b"
+  },
+  "quebec-city": {
+    "population": "549K",
+    "climate": "long winters and steep lot drainage",
+    "landmark": "Old Quebec ramparts",
+    "neighbourhoods": [
+      "Sainte-Foy",
+      "Charlesbourg"
+    ],
+    "hardiness": "5a"
+  },
+  "laval": {
+    "population": "438K",
+    "climate": "island humidity and freeze cycles",
+    "landmark": "Centropolis district",
+    "neighbourhoods": [
+      "Chomedey",
+      "Vimont"
+    ],
+    "hardiness": "5b"
+  },
+  "gatineau": {
+    "population": "291K",
+    "climate": "Ottawa River microclimate swings",
+    "landmark": "Canadian Museum of History views",
+    "neighbourhoods": [
+      "Aylmer",
+      "Hull"
+    ],
+    "hardiness": "5a"
+  },
+  "longueuil": {
+    "population": "239K",
+    "climate": "South Shore snow and spring mold pressure",
+    "landmark": "Parc Michel-Chartrand",
+    "neighbourhoods": [
+      "Saint-Hubert",
+      "Greenfield Park"
+    ],
+    "hardiness": "5b"
+  }
+}

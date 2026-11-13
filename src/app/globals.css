@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-surface: #f8faf7;
+  --color-surface-dim: #d8dbd8;
+  --color-surface-bright: #f8faf7;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f4f1;
+  --color-surface-container: #eceeeb;
+  --color-surface-container-high: #e7e9e6;
+  --color-surface-container-highest: #e1e3e0;
+  --color-on-surface: #191c1b;
+  --color-on-surface-variant: #424842;
+  --color-inverse-surface: #2e312f;
+  --color-inverse-on-surface: #eff1ee;
+  --color-outline: #727972;
+  --color-outline-variant: #c1c8c0;
+  --color-surface-tint: #42664e;
+  --color-primary: #002210;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #143823;
+  --color-on-primary-container: #7ca286;
+  --color-inverse-primary: #a8d0b2;
+  --color-secondary: #1b6d24;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #a0f399;
+  --color-on-secondary-container: #217128;
+  --color-tertiary: #301600;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #4f2700;
+  --color-on-tertiary-container: #e48015;
+  --color-error: #ba1a1a;
+  --color-surface-variant: #e1e3e0;
+  --color-primary-fixed: #c4eccd;
+  --color-primary-fixed-dim: #a8d0b2;
+  --color-on-primary-fixed: #00210f;
+  --color-on-primary-fixed-variant: #2a4e37;
+  --color-on-secondary-fixed-variant: #005312;
+  --color-secondary-fixed: #a3f69c;
+  --color-on-secondary-fixed: #002204;
+  --color-secondary-fixed-dim: #88d982;
+  --color-tertiary-fixed: #ffdcc3;
+  --color-on-tertiary-fixed: #2f1500;
+  --color-on-tertiary-fixed-variant: #6e3900;
+  --color-maple: #d97706;
+  --color-maple-dark: #b45309;
+  --color-background: #f8faf7;
+  --color-on-background: #191c1b;
+
+  --radius-sm: 0.25rem;
+  --radius-DEFAULT: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 1.75rem;
+  --radius-full: 9999px;
+
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-margin: 3rem;
+  --spacing-margin-mobile: 1.25rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface text-on-surface antialiased font-sans text-base leading-6;
+  }
+
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wGRAD" 0,
+    "opsz" 24;
+  vertical-align: middle;
+}
+
+.material-symbols-outlined.filled {
+  font-variation-settings:
+    "FILL" 1,
+    "wGRAD" 0,
+    "opsz" 24;
+}

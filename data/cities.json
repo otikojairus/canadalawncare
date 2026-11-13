@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Toronto",
+    "province": "ON",
+    "slug": "toronto",
+    "priority": "P1",
+    "note": "Large metro; suburban lawn-service market"
+  },
+  {
+    "name": "Ottawa",
+    "province": "ON",
+    "slug": "ottawa",
+    "priority": "P1",
+    "note": "Detached-home and suburban service areas"
+  },
+  {
+    "name": "Mississauga",
+    "province": "ON",
+    "slug": "mississauga",
+    "priority": "P1",
+    "note": "Large suburban residential and commercial market"
+  },
+  {
+    "name": "Brampton",
+    "province": "ON",
+    "slug": "brampton",
+    "priority": "P1",
+    "note": "Suburban residential and commercial properties"
+  },
+  {
+    "name": "Hamilton",
+    "province": "ON",
+    "slug": "hamilton",
+    "priority": "P1",
+    "note": "Residential and commercial market"
+  },
+  {
+    "name": "London",
+    "province": "ON",
+    "slug": "london",
+    "priority": "P1",
+    "note": "Residential lawn care market"
+  },
+  {
+    "name": "Kitchener",
+    "province": "ON",
+    "slug": "kitchener",
+    "priority": "P1",
+    "note": "Waterloo Region service-market potential"
+  },
+  {
+    "name": "Waterloo",
+    "province": "ON",
+    "slug": "waterloo",
+    "priority": "P2",
+    "note": "Waterloo Region; validate overlap with Kitchener"
+  },
+  {
+    "name": "Cambridge",
+    "province": "ON",
+    "slug": "cambridge",
+    "priority": "P2",
+    "note": "Waterloo Region; verify independent local SERP"
+  },
+  {
+    "name": "Burlington",
+    "province": "ON",
+    "slug": "burlington",
+    "priority": "P1",
+    "note": "Suburban detached-home market"
+  },
+  {
+    "name": "Oakville",
+    "province": "ON",
+    "slug": "oakville",
+    "priority": "P1",
+    "note": "Suburban residential properties"
+  },
+  {
+    "name": "Vaughan",
+    "province": "ON",
+    "slug": "vaughan",
+    "priority": "P1",
+    "note": "GTA suburban properties"
+  },
+  {
+    "name": "Markham",
+    "province": "ON",
+    "slug": "markham",
+    "priority": "P1",
+    "note": "GTA suburban properties"
+  },
+  {
+    "name": "Richmond Hill",
+    "province": "ON",
+    "slug": "richmond-hill",
+    "priority": "P2",
+    "note": "GTA local SERP validation"
+  },
+  {
+    "name": "Barrie",
+    "province": "ON",
+    "slug": "barrie",
+    "priority": "P1",
+    "note": "Residential service market north of GTA"
+  },
+  {
+    "name": "Oshawa",
+    "province": "ON",
+    "slug": "oshawa",
+    "priority": "P2",
+    "note": "Durham Region; local validation"
+  },
+  {
+    "name": "Whitby",
+    "province": "ON",
+    "slug": "whitby",
+    "priority": "P2",
+    "note": "Durham Region; potential SERP overlap"
+  },
+  {
+    "name": "Guelph",
+    "province": "ON",
+    "slug": "guelph",
+    "priority": "P2",
+    "note": "Residential care services"
+  },
+  {
+    "name": "Windsor",
+    "province": "ON",
+    "slug": "windsor",
+    "priority": "P2",
+    "note": "Residential and commercial services"
+  },
+  {
+    "name": "Kingston",
+    "province": "ON",
+    "slug": "kingston",
+    "priority": "P2",
+    "note": "Regional service hub"
+  },
+  {
+    "name": "Calgary",
+    "province": "AB",
+    "slug": "calgary",
+    "priority": "P1",
+    "note": "Major Prairie residential/commercial market"
+  },
+  {
+    "name": "Edmonton",
+    "province": "AB",
+    "slug": "edmonton",
+    "priority": "P1",
+    "note": "Major Prairie residential/commercial market"
+  },
+  {
+    "name": "Red Deer",
+    "province": "AB",
+    "slug": "red-deer",
+    "priority": "P2",
+    "note": "Regional city, validate demand"
+  },
+  {
+    "name": "Winnipeg",
+    "province": "MB",
+    "slug": "winnipeg",
+    "priority": "P1",
+    "note": "Major Prairie residential/commercial market"
+  },
+  {
+    "name": "Saskatoon",
+    "province": "SK",
+    "slug": "saskatoon",
+    "priority": "P1",
+    "note": "Urban residential market"
+  },
+  {
+    "name": "Regina",
+    "province": "SK",
+    "slug": "regina",
+    "priority": "P1",
+    "note": "Urban residential market"
+  },
+  {
+    "name": "Vancouver",
+    "province": "BC",
+    "slug": "vancouver",
+    "priority": "P1",
+    "note": "Large metro; regional climate and season differ"
+  },
+  {
+    "name": "Surrey",
+    "province": "BC",
+    "slug": "surrey",
+    "priority": "P1",
+    "note": "Metro Vancouver suburban properties"
+  },
+  {
+    "name": "Burnaby",
+    "province": "BC",
+    "slug": "burnaby",
+    "priority": "P2",
+    "note": "Metro Vancouver local SERP overlap"
+  },
+  {
+    "name": "Langley",
+    "province": "BC",
+    "slug": "langley",
+    "priority": "P2",
+    "note": "Metro Vancouver suburban market"
+  },
+  {
+    "name": "Coquitlam",
+    "province": "BC",
+    "slug": "coquitlam",
+    "priority": "P2",
+    "note": "Metro Vancouver suburban market"
+  },
+  {
+    "name": "Victoria",
+    "province": "BC",
+    "slug": "victoria",
+    "priority": "P1",
+    "note": "Milder coastal climate; longer season"
+  },
+  {
+    "name": "Kelowna",
+    "province": "BC",
+    "slug": "kelowna",
+    "priority": "P2",
+    "note": "Interior BC market; water constraints"
+  },
+  {
+    "name": "Nanaimo",
+    "province": "BC",
+    "slug": "nanaimo",
+    "priority": "P2",
+    "note": "Island residential properties"
+  },
+  {
+    "name": "Halifax",
+    "province": "NS",
+    "slug": "halifax",
+    "priority": "P1",
+    "note": "Atlantic regional service hub"
+  },
+  {
+    "name": "Moncton",
+    "province": "NB",
+    "slug": "moncton",
+    "priority": "P2",
+    "note": "Atlantic residential market"
+  },
+  {
+    "name": "Fredericton",
+    "province": "NB",
+    "slug": "fredericton",
+    "priority": "P2",
+    "note": "Atlantic residential market"
+  },
+  {
+    "name": "St. John's",
+    "province": "NL",
+    "slug": "st-john-s",
+    "priority": "P2",
+    "note": "Atlantic residential properties"
+  },
+  {
+    "name": "Charlottetown",
+    "province": "PE",
+    "slug": "charlottetown",
+    "priority": "P2",
+    "note": "Smaller local-market validation"
+  },
+  {
+    "name": "Montreal",
+    "province": "QC",
+    "slug": "montreal",
+    "priority": "P2",
+    "note": "French-language first; English demand uncertain"
+  },
+  {
+    "name": "Quebec City",
+    "province": "QC",
+    "slug": "quebec-city",
+    "priority": "P2",
+    "note": "French-language first; English demand uncertain"
+  },
+  {
+    "name": "Laval",
+    "province": "QC",
+    "slug": "laval",
+    "priority": "P2",
+    "note": "French-language first; English demand uncertain"
+  },
+  {
+    "name": "Gatineau",
+    "province": "QC",
+    "slug": "gatineau",
+    "priority": "P2",
+    "note": "French and English SERPs require validation"
+  },
+  {
+    "name": "Longueuil",
+    "province": "QC",
+    "slug": "longueuil",
+    "priority": "P2",
+    "note": "French-language first; English demand uncertain"
+  }
+]

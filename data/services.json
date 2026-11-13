@@ -1,0 +1,182 @@
+[
+  {
+    "topic": "Lawn Care Services",
+    "slug": "/lawn-care-services",
+    "title": "Lawn Care Services in Canada | Get a Quote",
+    "keyword": "lawn care services",
+    "secondary": "lawn care near me; lawn care company; lawn care providers",
+    "priority": "P1",
+    "cluster": "General recurring maintenance"
+  },
+  {
+    "topic": "Lawn Mowing Service",
+    "slug": "/lawn-mowing-service",
+    "title": "Lawn Mowing Service in Canada | Get a Quote",
+    "keyword": "lawn mowing service",
+    "secondary": "lawn mowing near me; lawn mowing services; lawn mowing company",
+    "priority": "P1",
+    "cluster": "Core transactional mowing"
+  },
+  {
+    "topic": "Grass Cutting Service",
+    "slug": "/grass-cutting-service",
+    "title": "Grass Cutting Service in Canada | Get a Quote",
+    "keyword": "grass cutting service",
+    "secondary": "grass cutting near me; grass cutting services; grass cutters",
+    "priority": "P1",
+    "cluster": "Compare with Lawn Mowing Service before separate URL"
+  },
+  {
+    "topic": "Lawn Maintenance",
+    "slug": "/lawn-maintenance",
+    "title": "Lawn Maintenance in Canada | Get a Quote",
+    "keyword": "lawn maintenance services",
+    "secondary": "lawn maintenance near me; lawn maintenance company; yard maintenance",
+    "priority": "P1",
+    "cluster": "Compare with broad Lawn Care Services"
+  },
+  {
+    "topic": "Commercial Lawn Care",
+    "slug": "/commercial-lawn-care",
+    "title": "Commercial Lawn Care in Canada | Get a Quote",
+    "keyword": "commercial lawn care",
+    "secondary": "commercial lawn care services; business lawn maintenance",
+    "priority": "P1",
+    "cluster": "Commercial property management"
+  },
+  {
+    "topic": "Commercial Lawn Mowing",
+    "slug": "/commercial-lawn-mowing",
+    "title": "Commercial Lawn Mowing in Canada | Get a Quote",
+    "keyword": "commercial lawn mowing",
+    "secondary": "commercial grass cutting; commercial lawn mowing services",
+    "priority": "P2",
+    "cluster": "Compare with Commercial Lawn Care"
+  },
+  {
+    "topic": "Lawn Aeration",
+    "slug": "/lawn-aeration",
+    "title": "Lawn Aeration in Canada | Get a Quote",
+    "keyword": "lawn aeration service",
+    "secondary": "lawn aeration near me; core aeration services; lawn aerating company",
+    "priority": "P1",
+    "cluster": "Spring and fall intent varies regionally"
+  },
+  {
+    "topic": "Lawn Dethatching",
+    "slug": "/lawn-dethatching",
+    "title": "Lawn Dethatching in Canada | Get a Quote",
+    "keyword": "lawn dethatching service",
+    "secondary": "dethatching service near me; power raking lawn service",
+    "priority": "P2",
+    "cluster": "Power raking may need separate SERP check"
+  },
+  {
+    "topic": "Lawn Fertilization",
+    "slug": "/lawn-fertilization",
+    "title": "Lawn Fertilization in Canada | Get a Quote",
+    "keyword": "lawn fertilization service",
+    "secondary": "lawn fertilizer service; lawn fertilization company",
+    "priority": "P1",
+    "cluster": "Confirm provincial/local rules and capabilities"
+  },
+  {
+    "topic": "Lawn Weed Control",
+    "slug": "/lawn-weed-control",
+    "title": "Lawn Weed Control in Canada | Get a Quote",
+    "keyword": "lawn weed control service",
+    "secondary": "weed control for lawns; lawn weed removal service",
+    "priority": "P1",
+    "cluster": "Pesticide restrictions and licensing vary by jurisdiction"
+  },
+  {
+    "topic": "Lawn Overseeding",
+    "slug": "/lawn-overseeding",
+    "title": "Lawn Overseeding in Canada | Get a Quote",
+    "keyword": "lawn overseeding service",
+    "secondary": "overseeding lawn service; lawn reseeding",
+    "priority": "P2",
+    "cluster": "Often bundled with aeration"
+  },
+  {
+    "topic": "Lawn Repair",
+    "slug": "/lawn-repair",
+    "title": "Lawn Repair in Canada | Get a Quote",
+    "keyword": "lawn repair service",
+    "secondary": "grass repair service; lawn restoration service",
+    "priority": "P2",
+    "cluster": "Problem-solving service"
+  },
+  {
+    "topic": "Sod Installation",
+    "slug": "/sod-installation",
+    "title": "Sod Installation in Canada | Get a Quote",
+    "keyword": "sod installation service",
+    "secondary": "sod installation near me; sod laying service; new sod installation",
+    "priority": "P1",
+    "cluster": "Distinct high-value installation intent"
+  },
+  {
+    "topic": "Lawn Seeding",
+    "slug": "/lawn-seeding",
+    "title": "Lawn Seeding in Canada | Get a Quote",
+    "keyword": "lawn seeding service",
+    "secondary": "grass seeding service; new lawn seeding",
+    "priority": "P2",
+    "cluster": "Compare with Overseeding"
+  },
+  {
+    "topic": "Lawn Top Dressing",
+    "slug": "/lawn-top-dressing",
+    "title": "Lawn Top Dressing in Canada | Get a Quote",
+    "keyword": "lawn top dressing service",
+    "secondary": "lawn topdressing near me; topsoil for lawn service",
+    "priority": "P2",
+    "cluster": "Often combined with aeration/overseeding"
+  },
+  {
+    "topic": "Spring Lawn Cleanup",
+    "slug": "/spring-lawn-cleanup",
+    "title": "Spring Lawn Cleanup in Canada | Get a Quote",
+    "keyword": "spring lawn cleanup",
+    "secondary": "spring yard cleanup; spring lawn clean up services",
+    "priority": "P1",
+    "cluster": "Spring scheduling"
+  },
+  {
+    "topic": "Fall Lawn Cleanup",
+    "slug": "/fall-lawn-cleanup",
+    "title": "Fall Lawn Cleanup in Canada | Get a Quote",
+    "keyword": "fall lawn cleanup",
+    "secondary": "fall yard cleanup; autumn leaf removal service",
+    "priority": "P1",
+    "cluster": "Fall scheduling"
+  },
+  {
+    "topic": "Lawn Edging",
+    "slug": "/lawn-edging",
+    "title": "Lawn Edging in Canada | Get a Quote",
+    "keyword": "lawn edging service",
+    "secondary": "grass edging service; lawn trimming and edging",
+    "priority": "P2",
+    "cluster": "Often bundled with mowing"
+  },
+  {
+    "topic": "One-Time Lawn Mowing",
+    "slug": "/one-time-lawn-mowing",
+    "title": "One-Time Lawn Mowing in Canada | Get a Quote",
+    "keyword": "one time lawn mowing",
+    "secondary": "one time grass cutting; single lawn mowing service",
+    "priority": "P2",
+    "cluster": "May belong on mowing parent service"
+  },
+  {
+    "topic": "Seasonal Lawn Care",
+    "slug": "/seasonal-lawn-care",
+    "title": "Seasonal Lawn Care in Canada | Get a Quote",
+    "keyword": "seasonal lawn care",
+    "secondary": "lawn care packages; lawn maintenance packages; weekly lawn care",
+    "priority": "P2",
+    "cluster": "May belong on broad care/maintenance page"
+  }
+]
