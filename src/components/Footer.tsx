@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Icon } from "./Icon";
-import { getCitiesByProvince, services } from "@/lib/site-data";
+import { getCitiesByProvince, PHONE_DISPLAY, PHONE_HREF, services } from "@/lib/site-data";
 
 export function Footer() {
   const byProvince = getCitiesByProvince();
@@ -71,7 +71,11 @@ export function Footer() {
               Cities we serve
             </Link>
             <p className="text-xs text-outline pt-2">
-              Need help choosing a service? Call <a href="tel:18002265296" className="text-primary font-semibold">1-800-CAN-LAWN</a>.
+              Need help choosing a service? Call{" "}
+              <a href={PHONE_HREF} className="text-primary font-semibold">
+                {PHONE_DISPLAY}
+              </a>
+              .
             </p>
           </div>
         </div>

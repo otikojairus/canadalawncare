@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { CityRecord, PageRecord } from "../site-data";
 import { getCityEnrichment } from "../city-enrichment";
 import { buildPageContent } from "./content";
-import { BRAND, SITE_URL } from "./constants";
+import { BRAND, PHONE_DISPLAY, SITE_URL } from "./constants";
 
 function trimToLength(text: string, max: number): string {
   if (text.length <= max) return text;
@@ -38,7 +38,7 @@ export function buildSeoDescription(page: PageRecord, city?: CityRecord): string
       : "Canada";
   const lead = `${titleCaseKeyword(page.keyword)} in ${area}.`;
   const snippet = content.intro.replace(/\s+/g, " ").slice(0, 90);
-  const cta = " Call 1-800-CAN-LAWN for local availability.";
+  const cta = ` Call ${PHONE_DISPLAY} for local availability.`;
   return trimToLength(`${lead} ${snippet}${cta}`, 160);
 }
 
@@ -46,7 +46,7 @@ export function buildCityHubDescription(city: CityRecord): string {
   const e = getCityEnrichment(city.slug);
   const climate = e?.climate ?? "northern seasonal swings";
   return trimToLength(
-    `Lawn care in ${city.name}, ${city.province}: mowing, aeration, and seasonal programs for ${climate}. Call 1-800-CAN-LAWN.`,
+    `Lawn care in ${city.name}, ${city.province}: mowing, aeration, and seasonal programs for ${climate}. Call ${PHONE_DISPLAY}.`,
     160
   );
 }

@@ -125,5 +125,5 @@ export function getAllDynamicPaths(): { slug: string[] }[] {
   return paths;
 }
 
-export const PHONE_DISPLAY = "1-800-CAN-LAWN";
-export const PHONE_HREF = "tel:18002265296";
+export const PHONE_DISPLAY = "1-888-708-8406";
+export const PHONE_HREF = "tel:18887088406";

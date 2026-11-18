@@ -2,13 +2,13 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { AboveFoldCta } from "@/components/seo/AboveFoldCta";
 import { canonicalUrl } from "@/lib/seo/metadata";
-import { BRAND } from "@/lib/seo/constants";
+import { BRAND, PHONE_DISPLAY } from "@/lib/seo/constants";
 import { getCitiesByProvince } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: `Lawn Care Cities Canada | ${BRAND}`,
   description:
-    "Find lawn care in Toronto, Vancouver, Calgary, Ottawa, Montreal, Halifax, and 38 more Canadian cities. Call 1-800-CAN-LAWN today.",
+    `Find lawn care in Toronto, Vancouver, Calgary, Ottawa, Montreal, Halifax, and 38 more Canadian cities. Call ${PHONE_DISPLAY} today.`,
   alternates: { canonical: canonicalUrl("/cities") },
 };
 

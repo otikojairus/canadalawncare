@@ -22,10 +22,8 @@ import {
   localBusinessSchema,
   serviceSchema,
 } from "@/lib/seo/schema";
+import { LAWN_HERO } from "@/lib/lawn-images";
 import { getCityByName, getServiceBySlug, type PageRecord } from "@/lib/site-data";
-
-const HERO_IMG =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80";
 
 export function PseoPageView({ page }: { page: PageRecord }) {
   const city = page.city ? getCityByName(page.city) : undefined;
@@ -144,11 +142,11 @@ function HeroImage({
     <div className="lg:col-span-6">
       <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl shadow-primary/10 group">
         <Image
-          src={HERO_IMG}
+          src={LAWN_HERO}
           alt={
             isLocal && city
-              ? `${page.service} on a residential lawn in ${city.name}`
-              : `${page.service} for Canadian properties`
+              ? `${page.service} on healthy turf in ${city.name}`
+              : `${page.service} on Canadian lawns`
           }
           fill
           className="object-cover group-hover:scale-[1.02] transition-transform duration-500"

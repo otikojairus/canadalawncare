@@ -4,10 +4,8 @@ import { BeforeAfterSlider } from "@/components/BeforeAfterSlider";
 import { Icon } from "@/components/Icon";
 import { ServiceNavigator } from "@/components/ServiceNavigator";
 import { climateFeatures, describeService, processSteps, seasonalPrograms } from "@/lib/page-copy";
+import { LAWN_HERO } from "@/lib/lawn-images";
 import { PHONE_DISPLAY, PHONE_HREF, cities, services, type ServiceRecord } from "@/lib/site-data";
-
-const HERO =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80";
 
 const testimonials = [
   {
@@ -68,8 +66,8 @@ export default function HomePage() {
             <div className="lg:col-span-6">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] group">
                 <Image
-                  src={HERO}
-                  alt="Manicured Canadian residential lawn"
+                  src={LAWN_HERO}
+                  alt="Manicured green lawn"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -164,10 +162,10 @@ export default function HomePage() {
               Proven northern results
             </span>
             <h2 className="text-3xl font-extrabold text-primary mt-2">
-              From winter damage to architectural velvet.
+              From shaggy spring growth to a clean cut.
             </h2>
             <p className="text-on-surface-variant mt-3 text-sm">
-              Drag the slider to see what six weeks of boreal-season care can do after a hard winter.
+              Drag the slider to compare overgrown turf with a sharp, striped finish after a professional mow and edge.
             </p>
           </div>
           <div className="lg:col-span-7">

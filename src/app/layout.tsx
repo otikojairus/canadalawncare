@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { RetreaverScript } from "@/components/RetreaverScript";
 import { BRAND, SITE_URL } from "@/lib/seo/constants";
 import { canonicalUrl } from "@/lib/seo/metadata";
 
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     template: `%s`,
   },
   description:
-    "Northern-climate lawn care for Canadian homes and businesses. Quiet mowing, aeration, fertilization, and seasonal programs. Call 1-800-CAN-LAWN.",
+    "Northern-climate lawn care for Canadian homes and businesses. Quiet mowing, aeration, fertilization, and seasonal programs. Call 1-888-708-8406.",
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: canonicalUrl("/") },
   robots: { index: true, follow: true },
@@ -41,6 +42,7 @@ export default function RootLayout({
         <Header />
         <main className="w-full pt-28 min-h-screen bg-surface">{children}</main>
         <Footer />
+        <RetreaverScript />
       </body>
     </html>
   );

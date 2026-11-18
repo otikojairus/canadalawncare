@@ -4,13 +4,13 @@ import { Icon } from "@/components/Icon";
 import { AboveFoldCta } from "@/components/seo/AboveFoldCta";
 import { describeService } from "@/lib/page-copy";
 import { canonicalUrl } from "@/lib/seo/metadata";
-import { BRAND } from "@/lib/seo/constants";
+import { BRAND, PHONE_DISPLAY } from "@/lib/seo/constants";
 import { services } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: `Lawn Care Services Canada | ${BRAND}`,
   description:
-    "Lawn care services across Canada: mowing, aeration, fertilization, weed control, sod, and commercial grounds. Call 1-800-CAN-LAWN for your city.",
+    `Lawn care services across Canada: mowing, aeration, fertilization, weed control, sod, and commercial grounds. Call ${PHONE_DISPLAY} for your city.`,
   alternates: { canonical: canonicalUrl("/services") },
 };
 

@@ -2,6 +2,7 @@ import { describeService } from "../page-copy";
 import type { CityRecord, PageRecord, ServiceRecord } from "../site-data";
 import { cities, getCityBySlug, services } from "../site-data";
 import { getCityEnrichment } from "../city-enrichment";
+import { PHONE_DISPLAY } from "./constants";
 
 export type FaqItem = { question: string; answer: string };
 export type ContentSection = { heading: string; level: 2 | 3; paragraphs: string[] };
@@ -103,7 +104,7 @@ export function buildCityHubContent(city: CityRecord): PageContent {
   const faqs: FaqItem[] = [
     {
       question: `Do you serve all of ${city.name}?`,
-      answer: `Yes — we cover ${city.name}, ${city.province}, including ${e?.neighbourhoods?.[0] ?? "central areas"} and ${e?.neighbourhoods?.[1] ?? "surrounding suburbs"}. Call 1-800-CAN-LAWN to confirm routing for your postal code.`,
+      answer: `Yes — we cover ${city.name}, ${city.province}, including ${e?.neighbourhoods?.[0] ?? "central areas"} and ${e?.neighbourhoods?.[1] ?? "surrounding suburbs"}. Call ${PHONE_DISPLAY} to confirm routing for your postal code.`,
     },
     {
       question: `When should I start spring lawn care in ${city.name}?`,
@@ -136,7 +137,7 @@ function buildLocalContent(page: PageRecord, city: CityRecord): PageContent {
     `Looking for ${page.keyword} in ${city.name}? ${describeService(page.service)} Our ${city.name} crews know how ${e?.climate ?? "local weather"} affects rooting depth, mower timing, and spring recovery on typical ${city.province} lots.`,
     `We regularly work near ${e?.landmark ?? "major corridors"} and in ${e?.neighbourhoods?.[0] ?? "central neighbourhoods"}, including properties that face salt spray, clay compaction, or heavy shade from mature trees.`,
     `${angles[0]} is part of how we deliver consistent results for homeowners who want curb appeal without weekend equipment maintenance.`,
-    `If you manage rental units, HOA common areas, or a single-family home in ${e?.neighbourhoods?.[1] ?? city.name}, you can call 1-800-CAN-LAWN to confirm route availability and seasonal start dates.`,
+    `If you manage rental units, HOA common areas, or a single-family home in ${e?.neighbourhoods?.[1] ?? city.name}, you can call ${PHONE_DISPLAY} to confirm route availability and seasonal start dates.`,
   ].join(" ");
 
   const locationFacts = locationFactLines(city, e);
@@ -201,7 +202,7 @@ function buildNationalContent(page: PageRecord): PageContent {
     `National crews follow the same five-step process: lot assessment, soil testing, quiet electric maintenance, digital visit reports, and retreat guarantees where weed control is included.`,
     angles[0],
     `Select your city on this page to read local timing, neighbourhood notes, and FAQs for ${page.keyword} near you — every market page is written for that metro’s climate and bylaws.`,
-    `Ready to start? Call 1-800-CAN-LAWN and we will match you with routes in your province or send you to the right local guide immediately.`,
+    `Ready to start? Call ${PHONE_DISPLAY} and we will match you with routes in your province or send you to the right local guide immediately.`,
   ].join(" ");
 
   const heroLead = `${describeService(page.service).replace(/\.$/, "")} — coast to coast with quiet electric crews. Choose your city for local timing.`;
@@ -245,7 +246,7 @@ function buildNationalContent(page: PageRecord): PageContent {
       heading: "How booking works — our process",
       level: 2,
       paragraphs: [
-        `Call 1-800-CAN-LAWN with your postal code and lot type. We confirm route density, first-visit timing, and whether ${page.service.toLowerCase()} should pair with aeration or fertilization in your season.`,
+        `Call ${PHONE_DISPLAY} with your postal code and lot type. We confirm route density, first-visit timing, and whether ${page.service.toLowerCase()} should pair with aeration or fertilization in your season.`,
         `Recurring clients receive visit reminders and photo scorecards; one-time projects such as sod or heavy dethatching include preparation instructions before crews arrive.`,
         `If you need bilingual scheduling or strata authorization forms, mention it during booking so paperwork is handled before the first ${page.keyword} visit.`,
       ],
@@ -259,7 +260,7 @@ function buildNationalContent(page: PageRecord): PageContent {
     },
     {
       question: `How do I find ${page.keyword} near me?`,
-      answer: `Use the city links on this page or call 1-800-CAN-LAWN. We cover 44 major Canadian cities with localized crews and scheduling.`,
+      answer: `Use the city links on this page or call ${PHONE_DISPLAY}. We cover 44 major Canadian cities with localized crews and scheduling.`,
     },
     {
       question: `When is the best season to book ${page.service.toLowerCase()}?`,
@@ -286,7 +287,7 @@ function buildLocalFaqs(
   return [
     {
       question: `How much does ${page.keyword} cost in ${city.name}?`,
-      answer: `Pricing depends on lot size, slope, obstacles, and frequency. ${city.name} routes factor in travel within ${e?.neighbourhoods?.[0] ?? "core areas"} and ${e?.neighbourhoods?.[1] ?? "suburbs"}. Call 1-800-CAN-LAWN for a quote based on your property layout.`,
+      answer: `Pricing depends on lot size, slope, obstacles, and frequency. ${city.name} routes factor in travel within ${e?.neighbourhoods?.[0] ?? "core areas"} and ${e?.neighbourhoods?.[1] ?? "suburbs"}. Call ${PHONE_DISPLAY} for a quote based on your property layout.`,
     },
     {
       question: `When should I schedule ${page.service.toLowerCase()} in ${city.name}?`,

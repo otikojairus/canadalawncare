@@ -3,11 +3,10 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { Icon } from "./Icon";
+import { LAWN_AFTER, LAWN_BEFORE } from "@/lib/lawn-images";
 
-const AFTER =
-  "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1600&q=80";
-const BEFORE =
-  "https://images.unsplash.com/photo-1605999182823-874e3b1d7a68?auto=format&fit=crop&w=1600&q=80";
+/** Shared crop so both layers frame grass similarly in the slider. */
+const SLIDER_IMAGE_CLASS = "object-cover object-center";
 
 export function BeforeAfterSlider() {
   const [value, setValue] = useState(50);
@@ -31,9 +30,15 @@ export function BeforeAfterSlider() {
       ref={containerRef}
       className="relative w-full aspect-[16/10] rounded-3xl overflow-hidden shadow-2xl select-none"
     >
-      <Image alt="Healthy emerald lawn after treatment" src={AFTER} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+      <Image
+        alt="Freshly mowed lawn with crisp mower stripes"
+        src={LAWN_AFTER}
+        fill
+        className={SLIDER_IMAGE_CLASS}
+        sizes="(max-width: 768px) 100vw, 50vw"
+      />
       <span className="absolute top-4 right-4 px-3 py-1 rounded-full bg-primary/80 backdrop-blur text-on-primary text-xs font-bold z-10">
-        After (Week 6)
+        After (fresh cut)
       </span>
       <div
         className="absolute top-0 bottom-0 left-0 overflow-hidden"
@@ -44,14 +49,14 @@ export function BeforeAfterSlider() {
           style={{ width: containerWidth > 0 ? containerWidth : "100%" }}
         >
           <Image
-            alt="Patchy lawn before spring recovery"
-            src={BEFORE}
+            alt="Tall, shaggy grass before the first mow of the season"
+            src={LAWN_BEFORE}
             fill
-            className="object-cover"
+            className={SLIDER_IMAGE_CLASS}
             sizes="(max-width: 768px) 100vw, 50vw"
           />
           <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-on-surface/80 backdrop-blur text-on-primary text-xs font-bold z-10">
-            Before (post-thaw)
+            Before (overgrown)
           </span>
         </div>
       </div>
@@ -64,7 +69,7 @@ export function BeforeAfterSlider() {
         </div>
       </div>
       <input
-        aria-label="Before and after comparison"
+        aria-label="Before and after lawn mowing comparison"
         type="range"
         min={0}
         max={100}
